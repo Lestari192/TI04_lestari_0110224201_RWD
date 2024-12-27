@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark"">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-1" href="#">AmOur</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#carouselExample">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                               Other
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#price">Special Offers</a></li>
+                                <li><a class="dropdown-item" href="#lokasi">Cabang</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#form">Form</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- image slide -->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/indoor.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block fw-bolder" style="font-size: 20px;">
+                        <p>Welcome to Our AmOur Hotels</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/indoor1.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block fw-bolder" style="font-size: 20px;">
+                        <p>Interior yang mewah dan elegan</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/kolam.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block fw-bolder" style="font-size: 20px;">
+                        <p>Area swimming pool yang luas</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <div class="container" id="about">
+    <h1 class="text-dark text-center">AMOUR HOTELS</h1>
+    <br>
+    <h5 class="text-center text-dark">Selamat Datang di AmOur Hotels</h5>
+    <br>
+    <h5 class="text-center text-dark">Fasilitas Hotel yang lengkap serta memberikan kenyamanan dan keamanan</h5>
+    <br>
+    <h5 class="text-center text-dark">Melayani para tamu dengan ramah selalu sedia jika anda membutuhkan bantuan</h5>
+    <br>
+    <div class="row">
+        <div class="col-md-4 mb-5">
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/perpus.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                    Perpustakaan di hotel kami menawarkan kenyamanan dan ketenangan. Dilengkapi dengan buku dari berbagai genre, area membaca yang nyaman, dan pencahayaan yang sempurna.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/garden.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                    Hotel kami memiliki taman luas dan sejuk dilengkapi dengan area duduk, pepohonan rindang, dan kolam yang kecil. Menjadi lokasi favorit untuk acara pernikahan atau sesi fotografi.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/gym.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                    Gym hotel kami dilengkapi dengan treadmill, alat angkat beban, dan berbagai fasilitas lainnya untuk mendukung gaya hidup sehat Anda, juga memiliki desain yang modern, pencahayaan alami.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/pedicure.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                    Nikmati pengalaman pedicure mewah di hotel kami, dapatkan kaki yang sehat dan indah dengan layanan pedikur kami. Reservasi sekarang untuk pengalaman perawatan terbaik!
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/salon.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                    Salon di hotel kami dilengkapi dengan fasilitas modern dan tim ahli yang siap melayani berbagai kebutuhan kecantikan Anda, mulai dari potong rambut hingga perawatan wajah.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/spa.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                    Spa hotel kami menghadirkan berbagai perawatan, mulai dari pijat aromaterapi, perawatan wajah, hingga terapi tubuh, semuanya menggunakan bahan alami berkualitas.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/bar.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                    Bar hotel ini dirancang dengan suasana hangat dan modern. Kami menyajikan beragam minuman, mulai dari koktail klasik hingga kreasi unik, yang diracik oleh bartender profesional kami.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/view.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                    Hotel kami menawarkan pemandangan kota yang memukau, terutama saat malam hari ketika lampu-lampu kota mulai menyala. Nikmati panorama indah kota langsung dari jendela kamar Anda.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/rmh.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                    Restoran di hotel kami menyajikan berbagai pilihan menu, mulai dari hidangan khas lokal hingga sajian internasional favorit. Nikmati hidangan istimewa sambil menikmati suasana elegan di restoran kami.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/br.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                    Nikmati kenyamanan kamar mandi yang elegan dengan shower rain dan perlengkapan mandi berkualitas tinggi Setelah seharian beraktivitas, manjakan diri Anda. 
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/room.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                    Kamar yang luas dan elegan, dilengkapi dengan fasilitas modern untuk memberikan kenyamanan maksimal selama menginap. Lengkap dengan pemandangan kota yang menakjubkan!
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/ms.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                    Museum hotel ini menyajikan koleksi unik yang menggambarkan tradisi, seni, dan sejarah kota, Jelajahi keindahan sejarah dan seni lokal langsung di museum hotel kami! Selamat menikmati!
+            </div>
+        </div>
+    </div>
+    <div class="container" id="price"></div>
+    <h1 class="text-light bg-dark text-center fw-bolder">Special Offers</h1>
+    <table class="table table-bordered table-info">
+        <tr class="table-dark"></tr>
+        <thead>
+          <tr>
+            <tr class="table-dark">...</tr>
+            <th scope="col" style="text-align: center;">No</th>
+            <th scope="col" style="text-align: center;">Rooms</th>
+            <th scope="col" style="text-align: center;">Amount</th>
+            <th scope="col" style="text-align: center;">Description</th>
+            <th scope="col" style="text-align: center;">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <tr class="table-dark">...</tr>
+            <th scope="row" class="text-center">1</th>
+            <td>Standard Room</td>
+            <td class="text-center">1-3 orang</td>
+            <td>Standard Room merupakan kelas kamar terbawah dan hanya memiliki fasilitas yang terbatas, seperti tempat tidur, AC, TV, perlengkapan mandi, dan air minum. Untuk ukuran kasur yang disediakan oleh Standard Room biasanya bervariasi. Ada yang memberikan kasur model single bed, queen size, atau bahkan king size.</td>
+            <td>Rp 670.000,- per malam</td>
+          </tr>
+          <tr>
+            <tr class="table-dark">...</tr>
+            <th scope="row" class="text-center">2</th>
+            <td>Superior Room</td>
+            <td class="text-center">2 orang</td>
+            <td>Kamar Superior umumnya memiliki fasilitas yang lebih baik daripada kamar standar. Biasanya untuk kamar standar dan superior memiliki opsi tempat tidur/bed. Ada Double Bed danTwin bed.</td>
+            <td>Rp 787.000,- per malam</td>
+          </tr>
+          <tr>
+            <tr class="table-dark">...</tr>
+            <th scope="row" class="text-center">3</th>
+            <td>Deluxe Room</td>
+            <td class="text-center">2 dewasa & 2 anak</td>
+            <td>Deluxe room adalah jenis kamar hotel diatas tipe standar dengan ukuran kamar yang lebih luas dan besar. Kamar ini dilengkapi dengan fasilitas dasar dan tambahan seperti akses gratis ke gym, kolam renang, makanan penutup, dan sebagainya.</td>
+            <td>Rp 926.500,- per malam</td>
+          </tr>
+          <tr>
+            <tr class="table-dark">...</tr>
+            <th scope="row" class="text-center">4</th>
+            <td>Twin Room</td>
+            <td class="text-center">2 orang</td>
+            <td>Twin room adalah kamar yang bisa ditempati oleh dua orang tamu, sebab tersedia dua kasur single di dalamnya.</td>
+            <td>Rp 750.000,- per malam</td>
+          <tr>
+            <tr class="table-dark">...</tr>
+            <th scope="row" class="text-center">5</th>
+            <td>Single Room</td>
+            <td class="text-center">1 orang</td>
+            <td>Single room biasanya hanya terdiri dari satu ruangan yang berisi hanya satu tempat tidur, sofa, dan kamar mandi. Jenis kamar hotel single room cocok satu orang saja karena memang fasilitas dan kapasitas yang tidak besar.</td>
+            <td>Rp 503.800,- per malam</td>
+          </tr>
+          <tr>
+            <tr class="table-dark">...</tr>
+            <th scope="row" class="text-center">6</th>
+            <td>Double Room</td>
+            <td class="text-center">2 orang</td>
+            <td>Double room adalah salah satu tipe kamar yang paling sering dipilih oleh pasangan suami istri saat sedang menginap. Karena double room adalah tipe kamar yang menyediakan kasur berukuran besar, sehingga bisa digunakan untuk berdua.</td>
+            <td>Rp 450.000,- per malam</td>
+          </tr>
+          <tr>
+            <tr class="table-dark">...</tr>
+            <th scope="row" class="text-center">7</th>
+            <td>Family Room</td>
+            <td class="text-center">3-4 orang</td>
+            <td> Kamar family room dari segi ukuran kamar, tipe ini memiliki ukuran yang jauh lebih luas daripada tipe kamar hotel lainnya. Tipe family room biasanya tersedia satu tempat tidur dengan ukuran king size dan satu tempat tidur dengan ukuran yang lebih kecil.</td>
+            <td>Rp 1.500.000,- per malam</td>
+          </tr>
+          <tr>
+            <tr class="table-dark">...</tr>
+            <th scope="row" class="text-center">8</th>
+            <td>Junior Suite Room</td>
+            <td class="text-center">2-3 orang</td>
+            <td> junior suite merupakan tipe kamar hotel yang dirancang untuk para tamu yang ingin merileksasikan diri. Setiap ruang dibuat dengan detail yang nyaman dan damai. Termasuk bagian balkon pribadi, yang dapat digunakan untuk bersantai sambil menikmati hangatnya matahari.</td>
+            <td>Rp 1.140.000,- per malam</td>
+          </tr>
+          <tr>
+            <tr class="table-dark">...</tr>
+            <th scope="row" class="text-center">9</th>
+            <td>Suite Room</td>
+            <td class="text-center">3 orang</td>
+            <td>Suite room adalah tipe kamar hotel yang luas dan memiliki tata letak yang rumit, dengan pemisahan yang jelas antara ruang tidur dan ruang keluarga. Dilengkapi dengan fasilitas mewah, seperti mini pantry atau dapur pribadi.</td>
+            <td>Rp 1.350.000,-</td>
+          </tr>
+          <tr>
+            <tr class="table-dark">...</tr>
+            <th scope="row" class="text-center">10</th>
+            <td>Presidential Suite</td>
+            <td class="text-center">4 orang</td>
+            <td>President Suite merupakan unit kamar terbaik yang dihadirkan, mulai dari ukuran ruangan lebih luas dari unit lain yang terdiri dari dua kamar tidur, living room, dapur, dan mini bar hingga kemewahan eksklusif yang memadukan desain interior bergaya eropa modern.</td>
+            <td>Rp 150.000.000,-</td>
+          </tr>
+          <tr>
+            <tr class="table-dark">...</tr>
+            <th scope="row" class="text-center">11</th>
+            <td>Connecting Room</td>
+            <td class="text-center">2 dewasa & 2 anak</td>
+            <td>Connecting room merupakan susunan dua atau lebih kamar hotel yang memiliki pintu penghubung di antara mereka. Pintu ini memungkinkan akses langsung antar-kamar tanpa harus keluar ke koridor.
+                Biasanya, kamar ini digunakan oleh keluarga atau kelompok yang ingin tetap terhubung, tetapi tetap menjaga privasi masing-masing.</td>
+            <td>Rp 850.000,-</td>
+          </tr>
+        </tbody>
+        <tr class="table-dark">...</tr>
+      </table>
+      <div class="container" id="lokasi"></div>
+      <h1 class="text-light bg-dark text-center fw-bolder">Cabang</h1>
+      <div class="row">
+        <div class="col-md-4 mb-5">
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/cb 1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                    Hotel kami yang pertama ini ada di Bandung.
+                </div>
+            </div>
+        </div>
+            <div class="col-md-4 mb-5">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="img/cbg2.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-body">
+                        Hotel kami yang kedua ini ada di Korea Selatan.
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/cbg3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-body">
+                            Hotel kami yang terakhir ini ada di Bali tempat liburan favorit.
+                        </div>
+                    </div>
+                </div>
+    <h1 class="text-light bg-dark text-center fw-bolder">Form Pemesanan</h1>
+    <div class="container px-5 my-5" id="form">
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+            <div class="form-floating mb-3">
+                <input class="form-control" id="email" type="email" placeholder="Email " data-sb-validations="required,email" />
+                <label for="email">Email </label>
+                <div class="invalid-feedback" data-sb-feedback="email:required">Email is required.</div>
+                <div class="invalid-feedback" data-sb-feedback="email:email">Email Email is not valid.</div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label d-block">Gender</label>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" id="man" type="radio" name="gender" data-sb-validations="" />
+                    <label class="form-check-label" for="man">Man</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" id="woman" type="radio" name="gender" data-sb-validations="" />
+                    <label class="form-check-label" for="woman">Woman</label>
+                </div>
+            </div>
+            <div class="form-floating mb-3">
+                <select class="form-select" id="rooms" aria-label="Rooms">
+                    <option value="Standard Room">Standard Room</option>
+                    <option value="Superior Room">Superior Room</option>
+                    <option value="Deluxe Room">Deluxe Room</option>
+                    <option value="Twin Room">Twin Room</option>
+                    <option value="Single Room">Single Room</option>
+                    <option value="Double Room">Double Room</option>
+                    <option value="Family Room">Family Room</option>
+                    <option value="Junior Suite Room">Junior Suite Room</option>
+                    <option value="Suite Room">Suite Room</option>
+                    <option value="Presidential Suite">Presidential Suite</option>
+                    <option value="Connecting Room">Connecting Room</option>
+                    <option value=""></option>
+                </select>
+                <label for="rooms">Rooms</label>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                <label for="message">Message</label>
+                <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+            </div>
+            <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center mb-3">
+                    <div class="fw-bolder">Form submission successful!</div>
+                    <p>To activate this form, sign up at</p>
+                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                </div>
+            </div>
+            <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3">Error sending message!</div>
+            </div>
+            <div class="d-grid">
+                <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="bg-body-tertiary text-center text-ig-start" id="footer">
+        <!-- grid container -->
+         <div class="container p-4">
+            <!-- grid row -->
+             <div class="row text-center">
+
+                <!-- grid column -->
+                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">Page</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="index.html" class="text-body">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="text-body">About</a>
+                        </li>
+                        <li>
+                            <a href="other.html" class="text-body">Other</a>
+                        </li>
+                    </ul>
+                 </div>
+                 <!-- grid column -->
+
+                 <!-- grid column -->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">Social Media</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.instagram.com/stea.aiii/profilecard/?igsh=b21pa2s5NTFrc2pl" class="text-body">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/lestari-undefined-7836b132b/" class="text-body">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Lestari192" class="text-body">Github</a>
+                        </li>
+                    </ul>
+                  </div>
+                  <!-- grid column -->
+
+                  <!-- grid column -->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-e">Other</h5>
+                    
+                    <ul class="list-unstyled">
+                    <li>
+                    <a href="#" class="text-body">Service</a>
+                    </li>
+                    <li>
+                    <a href="#" class="text-body">Order</a>
+                    </li>
+                    <li>
+                    <a href="#" class="text-body">Setting</a>
+                    </li>
+                    <li>
+                    <a href="#" class="text-body">Helpp</a>
+                    </li>
+                </ul>    
+             </div>
+
+             <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <address>
+                            <strong>AmOur Hotels.</strong><br /> amours@gmail.com <br />Bandung, Korea Selatan, Bali <br /> <abbr title="Phone">(+)</abbr>62 956 226 606 68 <br />
+                        </address>
+                    </div>
+                </div>
+             </div>
+         </div>
+         <!-- grid row -->
+          </div>
+          <!-- grid container -->
+
+          <!-- Copyright -->
+           <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            @ 2024 Copyright:
+            <a class="text-body" href="https://mdbootstrap.com">Lestari</a>
+           </div>
+           <!-- Copyright -->
+    </footer>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
